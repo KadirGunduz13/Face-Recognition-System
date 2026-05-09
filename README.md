@@ -42,7 +42,7 @@ The system uses the **OpenCV Haar Cascade** algorithm for face detection and the
    ```bash
    pip install opencv-python numpy face_recognition matplotlib
 
-3. Add your training dataset to the oyuncu_yuzleri/ directory and your test images to the test_images/ directory, then run the notebook/script.
+3. Add your training dataset to the `oyuncu_yuzleri/` directory and your test images to the `test_images/` directory, then run the notebook/script.
 
 ---
 
@@ -82,4 +82,4 @@ Sistem, yüz tespiti (detection) için **OpenCV Haar Cascade** algoritmasını, 
    ```bash
    pip install opencv-python numpy face_recognition matplotlib
 
-3. Kendi veri setinizi oyuncu_yuzleri/ klasörüne, test edeceğiniz fotoğrafları ise test_images/ klasörüne ekleyerek kod dosyasını çalıştırın.
+3. Kendi veri setinizi `oyuncu_yuzleri/` klasörüne, test edeceğiniz fotoğrafları ise `test_images/` klasörüne ekleyerek kod dosyasını çalıştırın.
