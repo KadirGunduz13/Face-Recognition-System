@@ -30,10 +30,16 @@ The system uses the **OpenCV Haar Cascade** algorithm for face detection and the
  <img width="712" height="687" alt="test9" src="https://github.com/user-attachments/assets/5e49d343-de41-43f8-8bdc-e954dd38962e" />
 
 *Unknown Face*
-* <img width="597" height="675" alt="test11" src="https://github.com/user-attachments/assets/0e40719f-a4e3-4afc-8e31-b32b81f04e27" />
+<img width="597" height="675" alt="test11" src="https://github.com/user-attachments/assets/0e40719f-a4e3-4afc-8e31-b32b81f04e27" />
 
 
 ### ⚙️ Setup and Usage
 1. Clone the repository to your local machine:
    ```bash
    git clone [https://github.com/yourusername/face-recognition-system.git](https://github.com/yourusername/face-recognition-system.git)
+
+2. Install the required dependencies:
+   ```bash
+   pip install opencv-python numpy face_recognition matplotlib
+
+3. Add your training dataset to the oyuncu_yuzleri/ directory and your test images to the test_images/ directory, then run the notebook/script.
