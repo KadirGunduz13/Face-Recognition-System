@@ -25,7 +25,7 @@ The system uses the **OpenCV Haar Cascade** algorithm for face detection and the
 * **Matplotlib** (Output visualization)
 
 ### 📸 Screenshots
-*(Insert your screenshots here)*
+
 *Successful Match*
  <img width="712" height="687" alt="test9" src="https://github.com/user-attachments/assets/5e49d343-de41-43f8-8bdc-e954dd38962e" />
 
