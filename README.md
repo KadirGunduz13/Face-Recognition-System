@@ -1,28 +1,35 @@
-# 🎭 Face Detection and Recognition System
+# 🎭 Face Detection and Recognition System (Yüz Algılama ve Tanıma Sistemi)
 
-Bu proje, dijital görüntüler üzerindeki insan yüzlerini tespit etmek ve sistemde kayıtlı olan kişilerle eşleştirmek amacıyla geliştirilmiş bir Görüntü İşleme (Image Processing) uygulamasıdır. 
+[![English](https://img.shields.io/badge/Language-English-blue)](#english-version)
+[![Türkçe](https://img.shields.io/badge/Dil-Türkçe-red)](#türkçe-sürüm)
 
-Sistem, yüz tespiti (detection) için **OpenCV Haar Cascade** algoritmasını, yüz tanıma (recognition) ve kimliklendirme aşaması için ise derin öğrenme tabanlı **face_recognition** kütüphanesini kullanmaktadır.
+---
 
-## 🚀 Özellikler
-* **Hızlı Yüz Tespiti:** `haarcascade_frontalface_default.xml` kullanılarak görüntülerdeki yüzler hızlıca tespit edilir.
-* **Yüksek Doğruluklu Tanıma:** Klasik LBPH algoritmaları yerine, yüzleri 128 boyutlu özellik vektörlerine (encodings) çevirerek Öklid mesafesi ile karşılaştırma yapar.
-* **Dinamik Görselleştirme:** Tanınan kişiler yeşil çerçeve ve isim/benzerlik skoruyla; sistemde olmayan kişiler ise kırmızı çerçeve ve "Kayıtlı Değil" uyarısıyla etiketlenir.
-* **Önişleme Desteği:** Işık farklılıklarını tolere edebilmek için görüntüleri gri tonlamaya çevirir ve Histogram Eşitleme (Equalization) uygular.
+<h2 id="english-version">🇬🇧 English Version</h2>
 
-## 🛠️ Kullanılan Teknolojiler
+This project is a Computer Vision application developed to detect human faces in digital images and match them with registered individuals in the system.
+
+The system uses the **OpenCV Haar Cascade** algorithm for face detection and the deep learning-based **face_recognition** library for the facial recognition and identity matching stages.
+
+### 🚀 Features
+* **Fast Face Detection:** Rapidly detects faces in images using `haarcascade_frontalface_default.xml`.
+* **High-Accuracy Recognition:** Instead of classic LBPH algorithms, it converts faces into 128-dimensional feature vectors (encodings) and compares them using Euclidean distance.
+* **Dynamic Visualization:** Recognized individuals are labeled with a green bounding box, their name, and a similarity score. Unregistered faces are labeled with a red box and a "Not Registered" (Kayıtlı Değil) warning.
+* **Image Preprocessing:** Converts images to grayscale and applies Histogram Equalization to tolerate lighting differences and improve accuracy.
+
+### 🛠️ Technologies Used
 * **Python 3.x**
-* **OpenCV** (Görüntü işleme ve Haar Cascade)
-* **face_recognition** (Derin öğrenme tabanlı yüz eşleştirme)
-* **NumPy** (Matris ve dizi işlemleri)
-* **Matplotlib** (Çıktıların görselleştirilmesi)
+* **OpenCV** (Image processing and Haar Cascades)
+* **face_recognition** (Deep learning-based facial embeddings)
+* **NumPy** (Matrix and array operations)
+* **Matplotlib** (Output visualization)
 
-## 📸 Ekran Görüntüleri
-*(Buraya başarılı bir eşleşmenin ve "Kayıtlı Değil" uyarısının ekran görüntülerini ekleyebilirsin: `![Tanınan Yüz](gorsel_linki.jpg)` formatında)*
+### 📸 Screenshots
+*(Insert your screenshots here)*
+* `![Successful Match](link_to_image_1)`
+* `![Unknown Face](link_to_image_2)`
 
-## ⚙️ Kurulum ve Kullanım
-1. Repoyu bilgisayarınıza klonlayın:
-   `git clone https://github.com/kullaniciadin/face-recognition-system.git`
-2. Gerekli kütüphaneleri yükleyin:
-   `pip install opencv-python numpy face_recognition matplotlib`
-3. Kendi veri setinizi `oyuncu_yuzleri/` klasörüne, test edeceğiniz fotoğrafları ise `test_images/` klasörüne ekleyerek kodu çalıştırın.
+### ⚙️ Setup and Usage
+1. Clone the repository to your local machine:
+   ```bash
+   git clone [https://github.com/yourusername/face-recognition-system.git](https://github.com/yourusername/face-recognition-system.git)
