@@ -5,7 +5,7 @@
 
 ---
 
-<h2 id="english-version">ᴇɴ English Version</h2>
+<h2 id="english-version">ᴇɴ</h2>
 
 This project is a Computer Vision application developed to detect human faces in digital images and match them with registered individuals in the system.
 
@@ -46,7 +46,7 @@ The system uses the **OpenCV Haar Cascade** algorithm for face detection and the
 
 ---
 
-<h2 id="türkçe-sürüm">ᴛʀ Türkçe Versiyon</h2>
+<h2 id="türkçe-sürüm">ᴛʀ</h2>
 
 Bu proje, dijital görüntüler üzerindeki insan yüzlerini tespit etmek ve sistemde kayıtlı olan kişilerle eşleştirmek amacıyla geliştirilmiş bir Görüntü İşleme (Computer Vision) uygulamasıdır.
 
