@@ -5,7 +5,7 @@
 
 ---
 
-<h2 id="english-version">🇬🇧 English Version</h2>
+<h2 id="english-version">ᴇɴ English Version</h2>
 
 This project is a Computer Vision application developed to detect human faces in digital images and match them with registered individuals in the system.
 
@@ -43,3 +43,43 @@ The system uses the **OpenCV Haar Cascade** algorithm for face detection and the
    pip install opencv-python numpy face_recognition matplotlib
 
 3. Add your training dataset to the oyuncu_yuzleri/ directory and your test images to the test_images/ directory, then run the notebook/script.
+
+---
+
+<h2 id="türkçe-sürüm">ᴛʀ Türkçe Versiyon</h2>
+
+Bu proje, dijital görüntüler üzerindeki insan yüzlerini tespit etmek ve sistemde kayıtlı olan kişilerle eşleştirmek amacıyla geliştirilmiş bir Görüntü İşleme (Computer Vision) uygulamasıdır.
+
+Sistem, yüz tespiti (detection) için **OpenCV Haar Cascade** algoritmasını, yüz tanıma (recognition) ve kimliklendirme aşaması için ise derin öğrenme tabanlı **face_recognition** kütüphanesini kullanmaktadır.
+
+### 🚀 Özellikler
+* **Hızlı Yüz Tespiti:** `haarcascade_frontalface_default.xml` kullanılarak görüntülerdeki yüzler hızlıca tespit edilir.
+* **Yüksek Doğruluklu Tanıma:** Klasik LBPH algoritmaları yerine, yüzleri 128 boyutlu özellik vektörlerine (encodings) çevirerek Öklid mesafesi ile karşılaştırma yapar.
+* **Dinamik Görselleştirme:** Tanınan kişiler yeşil çerçeve ve isim/benzerlik skoruyla; sistemde olmayan kişiler ise kırmızı çerçeve ve "Kayıtlı Değil" uyarısıyla etiketlenir.
+* **Önişleme Desteği:** Işık farklılıklarını tolere edebilmek için görüntüleri gri tonlamaya çevirir ve Histogram Eşitleme (Equalization) uygular.
+
+### 🛠️ Kullanılan Teknolojiler
+* **Python 3.x**
+* **OpenCV** (Görüntü işleme ve Haar Cascade)
+* **face_recognition** (Derin öğrenme tabanlı yüz eşleştirme)
+* **NumPy** (Matris ve dizi işlemleri)
+* **Matplotlib** (Çıktıların görselleştirilmesi)
+
+### 📸 Ekran Görüntüleri
+
+*Başarılı Eşleşme*
+ <img width="712" height="687" alt="test9" src="https://github.com/user-attachments/assets/5e49d343-de41-43f8-8bdc-e954dd38962e" />
+
+*Kayıtlı Olmayan Yüz*
+<img width="597" height="675" alt="test11" src="https://github.com/user-attachments/assets/0e40719f-a4e3-4afc-8e31-b32b81f04e27" />
+
+### ⚙️ Kurulum ve Kullanım
+1. Repoyu bilgisayarınıza klonlayın:
+   ```bash
+   git clone [https://github.com/kullaniciadin/face-recognition-system.git](https://github.com/kullaniciadin/face-recognition-system.git)
+
+2. Gerekli kütüphaneleri yükleyin:
+   ```bash
+   pip install opencv-python numpy face_recognition matplotlib
+
+3. Kendi veri setinizi oyuncu_yuzleri/ klasörüne, test edeceğiniz fotoğrafları ise test_images/ klasörüne ekleyerek kod dosyasını çalıştırın.
