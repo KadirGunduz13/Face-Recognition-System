@@ -1,6 +1,8 @@
 # 🎭 Face Detection and Recognition System (Yüz Algılama ve Tanıma Sistemi)
 
 [![English](https://img.shields.io/badge/Language-English-blue)](#english-version)
+
+
 [![Türkçe](https://img.shields.io/badge/Dil-Türkçe-red)](#türkçe-sürüm)
 
 ---
