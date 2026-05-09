@@ -27,7 +27,11 @@ The system uses the **OpenCV Haar Cascade** algorithm for face detection and the
 ### 📸 Screenshots
 *(Insert your screenshots here)*
 * `![Successful Match](link_to_image_1)`
+* <img width="712" height="687" alt="test9" src="https://github.com/user-attachments/assets/5e49d343-de41-43f8-8bdc-e954dd38962e" />
+
 * `![Unknown Face](link_to_image_2)`
+* <img width="597" height="675" alt="test11" src="https://github.com/user-attachments/assets/0e40719f-a4e3-4afc-8e31-b32b81f04e27" />
+
 
 ### ⚙️ Setup and Usage
 1. Clone the repository to your local machine:
